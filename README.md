@@ -10,7 +10,7 @@ Feel free to use it as you wish.
 The DLL file needs to be there in the same folder as the PY file.
 The "OpenHardwareMonitorLib.dll" is a library that needs to be used to access and read the CPU temperature in real-time so it can be displayed in the GUI.
 
-#What? Only Celcius?
+# What? Only Celcius?
 Yes; Currently only in Celcius, sorry murrica.
 I shall add a slider later that swich between the units.
 
