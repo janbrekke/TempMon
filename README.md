@@ -25,5 +25,11 @@ pip install -r requirements.txt
 Just run the Python file as is.
 Shouldn't require any argument magic.
 
+# FAQ
+Q: I am getting "AttributeError: module 'clr' has no attribute 'AddReference'"
+A: Run "pip uninstall clr"
+This is apparently a wrong version.
+Please use "pythonnet" instead of "clr" as stated in the requirements.
+
 # Screenshot
 ![Alt text](https://www.digitalbrekke.com/res/tempmon.png "ScreenShot")
